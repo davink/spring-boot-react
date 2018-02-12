@@ -29,7 +29,7 @@ componentDidMount() {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
-          To get KDKDKD, edit <code>src/App.js</code>jj
+          To get started, edit <code>src/App.js</code>
         </p>
       </div>
     );
