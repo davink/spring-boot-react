@@ -1,0 +1,19 @@
+Clone the repository
+
+cd into src/main/app
+	Run npm install
+		This will install all the node modules that the react app is dependent on
+
+cd back to project root
+	Run mvn clean install
+		This will build your code and generate a build of the react app
+		It will also copy the built react app into the resources directory in order for the boot app to serve up the react app
+
+To run the application
+	Launch the Application.class -> Starts up at localhost:8080
+	React app will be loaded by default
+
+To run the react app for development
+	cd src/main/app
+		Run npm start
+		Starts dev server with live reload at localhost:3000
